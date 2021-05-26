@@ -2,9 +2,9 @@ name: Build
 
 on:
   pull_request:
-    branches: [series/3.x.x]
+    branches: [series/3.x.x, 3.1.0, shift-to-caller-ec-2]
   push:
-    branches: [series/3.x.x]
+    branches: [series/3.x.x, 3.1.0, shift-to-caller-ec-2]
 
 jobs:
   build:
